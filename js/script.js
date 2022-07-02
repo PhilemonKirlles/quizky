@@ -114,4 +114,26 @@ function questionClick() {
     }
   }
   
+  function saveHighscore() {
+    // get value, get saved score from storage, rewrite score and save to localstorage.
+    var initials = initialsEl.value.trim();
+  
+    if (initials !== "") {
+
+        var highscores =
+        JSON.parse(window.localStorage.getItem("highscores")) || [];
+  
+      var newScore = {
+        score: time,
+        initials: initials
+      };
+  
+      // save to localstorage
+      highscores.push(newScore);
+      window.localStorage.setItem("highscores", JSON.stringify(highscores));
+  
+      // point to score.html
+      window.location.href = "score.html";
+    }
+  }
   
