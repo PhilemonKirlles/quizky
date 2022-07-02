@@ -117,7 +117,7 @@ function questionClick() {
   function saveHighscore() {
     // get value, get saved score from storage, rewrite score and save to localstorage.
     var initials = initialsEl.value.trim();
-  
+    //if not, set to empty array
     if (initials !== "") {
 
         var highscores =
@@ -136,4 +136,4 @@ function questionClick() {
       window.location.href = "score.html";
     }
   }
-  
+
