@@ -1,9 +1,44 @@
+// //attach questions' opject file to the main js script
+// var questions = document.createElement("script");
+// questions.type = "text/javascript";
+// questions.src = "./assets/js/questions.js";
+// questions.async = true;
+// $("head").append(script);
+
+// var questions = [
+//   {
+//       title: "Commonly Used data types DO NOT include:",
+//       choices: ["stings", "alerts", "booleans", "numbers"],
+//       answer: "alerts"
+//   },
+//   {
+//       title: "The condition in an if / else statment is enclosed within _____.",
+//       choices: ["parentheses", "quotes", "curly brackets", "square brackets"],
+//       answer: "parentheses"
+//   },
+//   {
+//       title: "What javascipt method can we use to select an html element?",
+//       choices: ["document.queryselector()", "document.getElementChild", "document.getElementById", "Both 1 and 3"],
+//       answer: "Both 1 and 3"
+//   },
+//   {
+//       title: "What html tag is NOT included in the HEAD tag?",
+//       choices: ["link", "meta", "title", "header"],
+//       answer: "header"
+//   },
+//   {
+//       title: "What attribute is used in html to decorate content?",
+//       choices: ["css", "class", "src", "style"],
+//       answer: "style"
+//   }
+// ]
+
 // DOM elements
+
 let questionsEl = document.querySelector("#questions");
 let timerEl = document.querySelector("#time");
 let choicesEl = document.querySelector("#choices");
 let submitBtn = document.querySelector("#submit");
-let startBtn = document.querySelector("#start");
 let initialsEl = document.querySelector("#initials");
 let feedbackEl = document.querySelector("#feedback");
 
@@ -136,4 +171,18 @@ function questionClick() {
       window.location.href = "score.html";
     }
   }
+  function checkForEnter(event) {
+    // "13" represents the enter key
+    if (event.key === "Enter") {
+      saveHighscore();
+    }
+  }
+  
+  // submit initials
+  submitBtn.onclick = saveHighscore;
+  
+  // start quiz
+  startBtn.onclick = startQuiz;
+  
+  initialsEl.onkeyup = checkForEnter;
 
