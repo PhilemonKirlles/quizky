@@ -136,4 +136,17 @@ function questionClick() {
       window.location.href = "score.html";
     }
   }
-
+  function checkForEnter(event) {
+      
+    if (event.key === "Enter") {
+      saveHighscore();
+    }
+  }
+  
+  // submit initials
+  submitBtn.onclick = saveHighscore;
+  
+  // start quiz
+  startBtn.onclick = startQuiz;
+  
+  initialsEl.onkeyup = checkForEnter;
