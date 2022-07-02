@@ -2,7 +2,7 @@ body {
     background-color: teal;
     font-family: "Nimbus Sans L", 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   }
-  .wrapper {
+  .container {
     margin: 100px auto 0 auto;
     max-width: 600px;
   }
