@@ -1,6 +1,5 @@
 # quizky
-# Work Day Scheduler Starter Code
-# daily-scheduler
+
 <!-- # project name -->
 
 ![project image]()
@@ -27,7 +26,6 @@ SO THAT I can gauge my progress compared to my peers.
 * CSS
 * Bootstrap
 * JavaScript
-* jQuery
 * markdown
 * moment 
 ---
@@ -71,7 +69,7 @@ Copyright (c) [2022] [Philemon AbdEllah Kirlles]
 -protfolio- ["]
 
 ## Website
-https://philemonkirlles.github.io/???/
+ https://philemonkirlles.github.io/quizky/
 
 ---
 
