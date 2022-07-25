@@ -2,7 +2,7 @@
 
 <!-- # project name -->
 
-![project image]()
+![project image](assets/images/Screen Shot 2022-07-25 at 7.09.21 PM.png)
 ---
 
 ## Table of Contents
