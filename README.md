@@ -3,7 +3,8 @@
 # daily-scheduler
 <!-- # project name -->
 
-![project image]()
+![project image](<img width="859" alt="Screen Shot 2022-07-25 at 7 09 21 PM" src="https://user-images.githubusercontent.com/99282495/180890701-fdaac362-4425-4a88-886c-cf621f48bf57.png">
+)
 ---
 
 ## Table of Contents
