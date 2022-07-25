@@ -2,7 +2,7 @@
 
 <!-- # project name -->
 
-![project image](assets/images/Screen Shot 2022-07-25 at 7.09.21 PM.png)
+![project image](https://github.com/PhilemonKirlles/quizky/blob/main/assets/images/Screen%20Shot%202022-07-25%20at%207.09.21%20PM.png)
 ---
 
 ## Table of Contents
